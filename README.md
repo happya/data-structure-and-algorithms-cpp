@@ -6,7 +6,7 @@ This is personal projects for "playing" algorithms with cpp. Let's have fun!
 
 
 Part 2. Trees
-- [Haffman Tree](<https://github.com/happya/fun-algorithms-cpp/tree/master/Huffman>)
+- [Haffman Tree](<https://github.com/happya/data-structure-and-algorithms-cpp/tree/master/Huffman>)
 
 ## Huffman Tree
 
