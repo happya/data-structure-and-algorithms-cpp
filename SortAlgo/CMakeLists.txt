@@ -3,4 +3,4 @@ project(SortAlgo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SortAlgo main.cpp Sort.h AlgoData.h SelectionSort.h InsertionSort.h MergeSort.h QuickSort.h HeapSort.h SortAlgorithms.h)
+add_executable(SortAlgo main.cpp Sort.h AlgoData.h SelectionSort.h InsertionSort.h MergeSort.h QuickSort.h HeapSort.h SortKit.h)

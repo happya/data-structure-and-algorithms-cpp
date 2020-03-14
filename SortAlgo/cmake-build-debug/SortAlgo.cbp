@@ -101,7 +101,7 @@
 		<Unit filename="D:/Projects/cpp/data-structure-and-algorithms-cpp/SortAlgo/Sort.h">
 			<Option target="SortAlgo"/>
 		</Unit>
-		<Unit filename="D:/Projects/cpp/data-structure-and-algorithms-cpp/SortAlgo/SortAlgorithms.h">
+		<Unit filename="D:/Projects/cpp/data-structure-and-algorithms-cpp/SortAlgo/SortKit.h">
 			<Option target="SortAlgo"/>
 		</Unit>
 		<Unit filename="D:/Projects/cpp/data-structure-and-algorithms-cpp/SortAlgo/main.cpp">

@@ -3,12 +3,6 @@
 
 CMakeFiles/SortAlgo.dir/main.cpp.obj: ../AlgoData.h
 CMakeFiles/SortAlgo.dir/main.cpp.obj: ../Heap.h
-CMakeFiles/SortAlgo.dir/main.cpp.obj: ../HeapSort.h
-CMakeFiles/SortAlgo.dir/main.cpp.obj: ../InsertionSort.h
-CMakeFiles/SortAlgo.dir/main.cpp.obj: ../MergeSort.h
-CMakeFiles/SortAlgo.dir/main.cpp.obj: ../QuickSort.h
-CMakeFiles/SortAlgo.dir/main.cpp.obj: ../SelectionSort.h
-CMakeFiles/SortAlgo.dir/main.cpp.obj: ../Sort.h
 CMakeFiles/SortAlgo.dir/main.cpp.obj: ../SortAlgorithms.h
 CMakeFiles/SortAlgo.dir/main.cpp.obj: ../main.cpp
 

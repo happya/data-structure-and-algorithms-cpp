@@ -9,15 +9,15 @@
 #include "AlgoData.h"
 
 template<typename Item>
-class SortAlgo {
+class SortAlgorithms {
 protected:
     AlgoData<Item>* data;
 public:
-    explicit SortAlgo(AlgoData<Item>* _data) : data(_data) {}
+    explicit SortAlgorithms(AlgoData<Item>* _data) : data(_data) {}
     int N() { return data->getSize(); }
     virtual void sort() = 0;
     virtual void printSort() = 0;
-    ~SortAlgo() { delete data; cout<<"data deleted"<<endl;}
+    ~SortAlgorithms() { delete data; cout << "data deleted" << endl;}
 
 };
 

@@ -8,12 +8,12 @@
 #include "Sort.h"
 #include "Heap.h"
 template<typename Item>
-class HeapSort:public SortAlgo<Item>{
+class HeapSort:public SortAlgorithms<Item>{
 private:
     MaxHeap<Item>* heap;
     typedef vector<Item> NUMS;
 public:
-    HeapSort(AlgoData<Item>* _data) : SortAlgo<Item>(_data) {
+    HeapSort(AlgoData<Item>* _data) : SortAlgorithms<Item>(_data) {
         NUMS numbers = this->data->copyData(0,this->N());
         heap = new MaxHeap<Item>(numbers, this->N());
     }

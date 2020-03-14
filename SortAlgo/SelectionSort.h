@@ -7,9 +7,9 @@
 
 #include "Sort.h"
 template<typename Item>
-class SelectionSort : public SortAlgo<Item> {
+class SelectionSort : public SortAlgorithms<Item> {
 public:
-    explicit SelectionSort(AlgoData<Item>* _data): SortAlgo<Item>(_data) {};
+    explicit SelectionSort(AlgoData<Item>* _data): SortAlgorithms<Item>(_data) {};
     void sort() override {
         for(int i=0;i<this->N();i++){
             int minIndex = i;

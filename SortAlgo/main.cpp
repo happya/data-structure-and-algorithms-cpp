@@ -1,6 +1,6 @@
 #include <iostream>
-//#include "SortAlgo.h"
 #include "SortAlgorithms.h"
+//#include "SortKit.h"
 using namespace std;
 typedef int Item;
 int main() {

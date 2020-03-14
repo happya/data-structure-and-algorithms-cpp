@@ -8,9 +8,9 @@
 #include "Sort.h"
 
 template<typename Item>
-class InsertionSort : public SortAlgo<Item> {
+class InsertionSort : public SortAlgorithms<Item> {
 public:
-    explicit InsertionSort(AlgoData<Item>* _data) : SortAlgo<Item>(_data) {};
+    explicit InsertionSort(AlgoData<Item>* _data) : SortAlgorithms<Item>(_data) {};
 
     void sort() override {
         for(int i=1;i<this->N();i++){

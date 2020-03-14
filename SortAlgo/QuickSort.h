@@ -7,9 +7,9 @@
 
 #include "Sort.h"
 template<typename Item>
-class QuickSort : public SortAlgo<Item> {
+class QuickSort : public SortAlgorithms<Item> {
 public:
-    explicit QuickSort(AlgoData<Item>* _data) : SortAlgo<Item>(_data) {}
+    explicit QuickSort(AlgoData<Item>* _data) : SortAlgorithms<Item>(_data) {}
     int partitionSimple(int l, int r) {
         int p = rand()%(r-l+1)+l;
         this->data->swapData(l, p);
@@ -71,7 +71,7 @@ public:
         this->data->swapData(l, p);
         // l为当前pivot的索引
         Item pivot = this->data->getData(l);
-        int lt = l; // [l,lt] < pivot
+        int lt = l; // [l + 1,lt] < pivot
         int gt = r+1; // [gt,r] > pivot
         int i = l+1; // [lt,i)==v
         while(i < gt) {
@@ -89,7 +89,7 @@ public:
             else { i ++; }
         }
         // 扫描结束后,
-        // [l,lt]<pivot, [lt+1, gt-1] == v, [gt,r]>v
+        // [l + 1,lt]<pivot, [lt+1, gt-1] == v, [gt,r]>v
         // 交换l与lt,使得[l,lt-1]<pivot, [lt, gt-1] == v, [gt,r]>v
         this->data->swapData(l,lt);
         quickSort(l, lt - 1);

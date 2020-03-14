@@ -7,11 +7,11 @@
 
 #include "Sort.h"
 template<typename Item>
-class MergeSort : public SortAlgo<Item> {
+class MergeSort : public SortAlgorithms<Item> {
 private:
     typedef vector<Item> NUMS;
 public:
-    explicit MergeSort(AlgoData<Item>* _data) : SortAlgo<Item>(_data) {};
+    explicit MergeSort(AlgoData<Item>* _data) : SortAlgorithms<Item>(_data) {};
 //    NUMS copyData(int start, int end) {
 //        auto p = NUMS();
 //        for(int i=start;i<=end;i++)
