@@ -71,7 +71,7 @@ public:
         this->data->swapData(l, p);
         // l为当前pivot的索引
         Item pivot = this->data->getData(l);
-        int lt = l; // [l+1,lt] < pivot
+        int lt = l; // [l,lt] < pivot
         int gt = r+1; // [gt,r] > pivot
         int i = l+1; // [lt,i)==v
         while(i < gt) {
@@ -89,7 +89,7 @@ public:
             else { i ++; }
         }
         // 扫描结束后,
-        // [l+1,lt]<pivot, [lt+1, gt-1] == v, [gt,r]>v
+        // [l,lt]<pivot, [lt+1, gt-1] == v, [gt,r]>v
         // 交换l与lt,使得[l,lt-1]<pivot, [lt, gt-1] == v, [gt,r]>v
         this->data->swapData(l,lt);
         quickSort(l, lt - 1);
