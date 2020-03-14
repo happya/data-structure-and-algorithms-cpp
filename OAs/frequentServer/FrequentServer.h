@@ -1,0 +1,14 @@
+//
+// Created by yyi on 2020/3/2.
+//
+
+#ifndef FREQUENTSERVER_FREQUENTSERVER_H
+#define FREQUENTSERVER_FREQUENTSERVER_H
+
+
+class FrequentServer {
+
+};
+
+
+#endif //FREQUENTSERVER_FREQUENTSERVER_H
