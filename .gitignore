@@ -13,3 +13,13 @@ __pycache__
 *.ntvs*
 *.njsproj
 *.sln
+
+**/.idea/
+.idea/
+**/cmake-build-debug/
+**/.settings/
+**/Debug/
+**/.cproject
+**/.project
+
+
